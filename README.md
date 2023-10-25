@@ -1,9 +1,12 @@
 # nhms
 Source code for the nutrition management system. 
 
-intro: The original user table has been divided into two separate tables: "user_login" for storing login information to improve security and aid in error troubleshooting, and "user_info" for storing fundamental information like email addresses.
+##### intro: 
 
-how to run:
+The original user table has been divided into two separate tables: "user_login" for storing login information to improve security and aid in error troubleshooting, and "user_info" for storing fundamental information like email addresses.
+
+##### how to run:
+
 copy the codes in create_user_table.sql into mySQL workbench to execute it.(temporarily)
 
 user_info: stores the basic information of the user. The structure is as below:
